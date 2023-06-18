@@ -1,0 +1,132 @@
+html, body{
+    height: 100%;
+    
+}
+
+
+#hDiv{
+    padding: 10px;
+    border-bottom: 10px solid;
+    
+    animation: mymove 5s infinite;
+}
+
+
+@keyframes mymove{
+    0% {border-bottom-color: red;}
+    25% {border-bottom-color: cornflowerblue;}
+    50% {border-bottom-color: chocolate;}
+    100% {border-bottom-color: mediumseagreen;}
+}
+
+
+
+
+
+
+#title{
+    background-color: darkcyan;
+    color: white;
+    display: block;
+    border-bottom: 2px solid black;
+    padding: 10px;
+    text-align: center;
+    border-radius: 10px 10px 0 0;
+}
+
+
+
+
+
+
+
+#navList{
+    list-style-type: none;
+    margin: 0;
+    width: 100%;
+    background-color: #e6ffe6;
+    height: 100%;
+}
+
+
+#navList li{
+    margin-left: -40px;
+    display: block;
+    background-color: #e6ffe6;
+    color: black;
+    border-bottom: 1px solid black;
+    padding: 10px;
+}
+
+#navList a{
+    display: block;
+    text-decoration: none;
+    color: inherit;
+}
+
+
+#navList li:hover{
+    background-color: black;
+    border-left: 10px solid #cc4400;
+    color: white;
+}
+
+
+
+#footerDiv{
+    
+    background-color: #00004d;
+    padding: 20px;
+    color: white;
+    font-size: 20px;
+    width: 100%;
+    
+    
+    
+}
+
+
+
+#conH{
+    border-bottom: 2px solid black;
+    color: darkgreen;
+    font-size: 18px;
+    padding: 10px 2px;
+    margin-left: -10px;
+    
+}
+
+
+
+#count{
+    font-size: 300px;
+    line-height: 500px;
+    text-align: center;
+    font-weight: bolder;
+    
+    animation: countMove 5s infinite;
+}
+
+
+
+@keyframes countMove{
+    0% {color: red;}
+    25% {color: cornflowerblue;}
+    50% {color: chocolate;}
+    100% {color: mediumseagreen;}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

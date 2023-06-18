@@ -1,0 +1,43 @@
+#recentNews{
+    background-color: #008000;
+    padding: 10px;
+    font-weight: bold;
+    color: white;
+}
+
+
+
+/* Contact page CSS */
+
+/*#contactDiv{
+    background-image: url(../images/contact_bg.jpg);
+}*/
+
+/* about page css */
+
+#teamDivision{
+    background-color: #d9d9d9;
+}
+
+
+
+
+
+
+
+#teamDiv{
+    background-color: #d9d9d9;
+}
+
+
+#myFooter{
+    background-color: #40408c;;
+    padding: 50px;
+    color: white;
+}
+
+#copyFooter{
+    background-color: #1a1a1a;
+    color: white;
+    padding: 20px;
+}
